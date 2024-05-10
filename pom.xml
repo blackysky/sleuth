@@ -6,7 +6,7 @@
 
     <groupId>ru.incube</groupId>
     <artifactId>sleuth</artifactId>
-    <version>1.0.0</version>
+    <version>2.0.0</version>
     <name>Sleuth</name>
 
     <properties>
@@ -39,10 +39,21 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>4.2.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.22</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.36</version>
         </dependency>
     </dependencies>
 
